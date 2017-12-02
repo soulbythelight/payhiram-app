@@ -1,3 +1,53 @@
+
+
+
 page-contact {
 
+	.names{
+		position: relative;
+		width: 100%;
+		margin: 0px 55px;
+	}
+
+
+	ion-icon.icon.icon-ios.ion-md-contact {
+    height: 50px;
+    width: 100%;
+    font-size: 50px;
+    color: #849ec7;
+   /* margin:10px;*/
+   	margin:0px -50px;
+   	position: absolute;
+	}
+
+	.contact-info{
+		
+		font-size: 15px;
+		position: absolute;
+	}
+
+	.namesPerson1{
+		margin:46px 50px;
+		height:50px;
+		width:100%;
+		margin:10px;
+		/*position: absolute;*/
+	}
+
+	.namesPerson2{
+		margin:0px 50px;
+		height:50px;
+		width:100%;
+		margin:10px;
+		/*position: absolute;*/
+	}
+
+	.namesPerson3{
+		margin:0px 50px;
+		height:50px;
+		width:100%;
+		margin:10px;
+		/*position: absolute;*/
+	}
 }
+
