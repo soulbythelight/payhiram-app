@@ -1,6 +1,105 @@
+
+
+
 page-about {
+
+	.tabbar.show-tabbar {
+    background: #fff;
+	}
+
 	.toolbar-title.toolbar-title-ios {
     color: white;
     text-shadow: 1px 1px 1px #b58500; 
 	}
+
+	.names{
+		position: relative;
+		width: 100%;
+		margin: 0px 55px;
+	}
+
+
+	ion-icon.icon.icon-ios.ion-md-contact {
+    height: auto;
+    width: 100%;
+    font-size: 50px;
+    color: #849ec7;
+   /* margin:10px;*/
+   	margin:0px -50px;
+   	position: absolute;
+	}
+
+	.contact-info{
+		
+		font-size: 15px;
+		position: absolute;
+		margin: 7px auto;
+	}
+
+	.namesPerson1{
+		margin:0 50px;
+		height:50px;
+		width:100%;
+		margin:10px;
+		border-bottom: 1px solid #849ec7;
+
+		/*position: absolute;*/
+	}
+
+	.namesPerson2{
+		margin:0 50px;
+		height:50px;
+		width:100%;
+		margin:10px;
+		border-bottom: 1px solid #849ec7;
+		/*position: absolute;*/
+	}
+
+	.namesPerson3{
+		margin:0 50px;
+		height:50px;
+		width:100%;
+		margin:10px;
+		border-bottom: 1px solid #849ec7;
+		/*position: absolute;*/
+	}
+
+	.infos{
+		color: #cdcdcd;
+		margin: 25px auto;
+		position: absolute;
+	}
+
+	.view{
+		margin:0 auto;
+		position: relative;
+		/*height: 90px;
+		width: 90px;*/
+	}
+
+	.view-eye1{
+		margin: 0 225px;
+		position: absolute;
+		color: #ffc82f;
+		font-size: 30px;
+		margin: 10px 70%;
+	}
+
+	.view-eye2{
+		margin: 0 225px;
+		position: absolute;
+		color: #ffc82f;
+		font-size: 30px;
+		margin: 10px 70%;
+	}
+
+	.view-eye3{
+		margin: 0 225px;
+		position: absolute;
+		color: #ffc82f;
+		font-size: 30px;
+		margin: 10px 70%;
+	}
+	
 }
+

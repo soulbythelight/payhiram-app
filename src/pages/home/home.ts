@@ -42,6 +42,30 @@ export class HomePage {
        
           this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
           this.addMarker()
+
+          var locations = [
+            ['Bondi Beach', 15.188344, 120.537744]
+          ];
+
+          var infowindow = new google.maps.InfoWindow();
+
+          var marker, i;
+
+
+          for (i = 0; i < locations.length; i++) {  
+            marker = new google.maps.Marker({
+              position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+              icon: 'http://maps.gstatic.com/mapfiles/ms2/micons/dollar.png',
+              map: this.map
+            });
+
+            google.maps.event.addListener(marker, 'click', (function(marker, i) {
+              return function() {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(this.map, marker);
+              }
+            })(marker, i));
+          }
         // }, 5000)
 
     },(err : PositionError)=>{

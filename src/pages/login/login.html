@@ -4,7 +4,25 @@
 	</div>	
 
 	<div class="bottom">
-		<button class="btn-start" [navPush]="pushPage"> TAP HERE TO START</button>
+		<button class="btn-start" (click)="onClickStart()" *ngIf="!showForm"> TAP HERE TO START</button>
+	</div>
 
+	<div style="padding: 40px; margin-top: 20px" class="show-login" *ngIf="showForm">
+		<ion-list inset>
+
+		  <ion-item>
+			<ion-label style="font-size: 12px; font-weight: bold">Username</ion-label>
+			<ion-input type="text"></ion-input>
+		  </ion-item>
+		  <br>
+		  <ion-item>
+			<ion-label style="font-size: 12px; font-weight: bold">Password</ion-label>
+			<ion-input type="password"></ion-input>
+		  </ion-item>
+
+		</ion-list>
+		<div padding>
+			<button style="width: 100%; font-size: 12px; font-weight: bold;" [navPush]="pushPage" ion-button>SIGN IN </button>
+		</div>
 	</div>
 </div>
