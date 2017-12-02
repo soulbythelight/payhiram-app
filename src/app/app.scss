@@ -14,3 +14,26 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+
+.toolbar-background.toolbar-background-ios {
+    background: #ffc82f;
+}
+.toolbar-ios {
+    padding: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    min-height: 60px;
+}
+.toolbar-title-ios {
+    color: #635f5f;
+}
+
+.tabs .tab-item .icon.home-custom {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  background-image: url('http://localhost:8100/assets/imgs/home.png');
+  background-size:contain;
+}
