@@ -30,10 +30,47 @@
     color: #635f5f;
 }
 
-.tabs .tab-item .icon.home-custom {
+/*.tabs .tab-item .icon.home-custom {
   background-repeat: no-repeat;
   background-position: 50%;
   height: 100%;
   background-image: url('http://localhost:8100/assets/imgs/home.png');
   background-size:contain;
+}*/
+.ion-ios-homecustom-outline,
+.ion-ios-homecustom,.ion-md-homecustom,.ion-md-homecustom-outline {
+  content: url('http://localhost:8100/assets/imgs/home.png');
+}
+.ion-ios-activities-outline,
+.ion-ios-activities,.ion-md-activities,.ion-md-activities-outline {
+  content: url('http://localhost:8100/assets/imgs/activities.png');
+}
+.ion-ios-profile-outline,
+.ion-ios-profile,.ion-md-profile,.ion-md-profile-outline {
+  content: url('http://localhost:8100/assets/imgs/profile.png');
+}
+.tabs-ios .tab-button-icon {
+    margin-top: 4px;
+    margin-bottom: 1px;
+    min-width: 35px;
+    height: 40px;
+    font-size: 30px;
+    color: #8c8c8c;
+}
+.tabs-ios .tabbar {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+     /*border-top: none;*/
+    background: none;
+}
+.tabs-ios .tabbar {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* border-top: none; */
+    height: 65px;
+    background: none;
 }
