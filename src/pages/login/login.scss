@@ -2,13 +2,13 @@ login-home {
 	height: 100vh;
 	width: 100%;
 	background: #f7f5f5;
-	padding: 30px;
+	/*padding: 30px;*/
 	position: relative;
 	.logo {
 		margin-top: 40px;
-		height: 230px;
+		height: 100%;
 		width: 100%;
-		margin-left: 5px;
+		/*margin-left: 5px;*/
 	}
 	.btn-start {
 		border: 0;
@@ -22,15 +22,47 @@ login-home {
 		font-weight: bold;
 		font-size: 15px;
 		border-radius: 50px;
+		margin: 0 13%;
 	}
 	.bottom {
 		position: absolute;
 		bottom: 100px;
 		width: 70%;
 	}
+
 	div#logo_image {
-		height: 400px;
+		height: 83%;
 		width: 100%;
 		content:url('../assets/imgs/off_logo.png');
+		position:absolute;
+		margin:0px auto;
+		/*width: auto;*/
+		height: auto;
+		top: 0;
+		left: 0;
+		clear: both;
+		/*margin-left: 3%;*/
+	}
+
+	button.btn-start {
+    color: #fff;
+    text-shadow: 0px 1px 2px #b58500; 
+	}
+
+	/*.logo{
+		margin:0 auto;
+		position:fixed;
+		margin:auto;
+		width: auto;
+		top: 0;
+		left: 0;
+		clear: both;
+
+	}*/
+
+	.logo_image{
+		margin: 0 auto;
+		position: absolute;
+		margin: auto;
 	}
 }
