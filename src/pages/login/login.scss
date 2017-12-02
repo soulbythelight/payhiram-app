@@ -1,7 +1,7 @@
 login-home {
 	height: 100vh;
 	width: 100%;
-	background: #fff;
+	background: #f7f5f5;
 	padding: 30px;
 	position: relative;
 	.logo {
@@ -27,5 +27,10 @@ login-home {
 		position: absolute;
 		bottom: 100px;
 		width: 70%;
+	}
+	div#logo_image {
+		height: 400px;
+		width: 100%;
+		content:url('../assets/imgs/off_logo.png');
 	}
 }

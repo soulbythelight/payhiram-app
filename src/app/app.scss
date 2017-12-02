@@ -39,15 +39,24 @@
 }*/
 .ion-ios-homecustom-outline,
 .ion-ios-homecustom,.ion-md-homecustom,.ion-md-homecustom-outline {
-  content: url('http://localhost:8100/assets/imgs/home.png');
+  content: url('../assets/imgs/home.png');
 }
 .ion-ios-activities-outline,
 .ion-ios-activities,.ion-md-activities,.ion-md-activities-outline {
-  content: url('http://localhost:8100/assets/imgs/activities.png');
+  content: url('../assets/imgs/activities.png');
 }
 .ion-ios-profile-outline,
 .ion-ios-profile,.ion-md-profile,.ion-md-profile-outline {
-  content: url('http://localhost:8100/assets/imgs/profile.png');
+  content: url('../assets/imgs/profile.png');
+}
+ion-icon.tab-button-icon.icon.icon-md.ion-md-profile {
+    height: 40px;
+}
+ion-icon.tab-button-icon.icon.icon-md.ion-md-homecustom {
+    height: 40px;
+}
+ion-icon.tab-button-icon.icon.icon-md.ion-md-activities {
+    height: 40px;
 }
 .tabs-ios .tab-button-icon {
     margin-top: 4px;
