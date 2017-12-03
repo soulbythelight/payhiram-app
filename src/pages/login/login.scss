@@ -49,20 +49,23 @@ login-home {
     text-shadow: 0px 1px 2px #b58500; 
 	}
 
-	/*.logo{
-		margin:0 auto;
-		position:fixed;
-		margin:auto;
-		width: auto;
-		top: 0;
-		left: 0;
-		clear: both;
-
-	}*/
+	.button-ios {
+    /* border-radius: 4px; */
+    height: 50px;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #ffc82f;
+    margin: 0.4rem 0.2rem;
+    padding: 0 1em;
+    border-radius: 50px;
+}
 
 	.logo_image{
 		margin: 0 auto;
 		position: absolute;
 		margin: auto;
 	}
+	ion-item.item.item-block.item-ios.item-input {
+    height: 55px;
+}
 }
