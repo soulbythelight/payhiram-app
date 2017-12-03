@@ -1,8 +1,8 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ModalController, ViewController } from 'ionic-angular';
 import { Geolocation ,GeolocationOptions ,Geoposition ,PositionError } from '@ionic-native/geolocation'; 
 
-
+import { ProfilePage } from '../profile/profile';
 declare var google;
 
 
@@ -19,9 +19,17 @@ export class HomePage {
   map: any;
  
   constructor(public navCtrl: NavController,
-    private geolocation: Geolocation) {
+    private geolocation: Geolocation,
+    public modalCtrl: ModalController) {
     this.getUserPosition()
   }
+  presentProfileModal() {
+   let profileModal = this.modalCtrl.create(ProfilePage, { userId: 8675309 });
+   profileModal.onDidDismiss(data => {
+     console.log(data);
+   });
+   profileModal.present();
+ }
   getUserPosition(){
     this.options = {
         enableHighAccuracy : true

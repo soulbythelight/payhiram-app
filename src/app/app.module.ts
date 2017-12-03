@@ -5,6 +5,7 @@ import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
+import { ProfilePage } from '../pages/profile/profile';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { Login } from '../pages/login/login';
@@ -21,7 +22,8 @@ import { Geolocation } from '@ionic-native/geolocation';
     ContactPage,
     HomePage,
     TabsPage,
-    Login
+    Login,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { Geolocation } from '@ionic-native/geolocation';
     ContactPage,
     HomePage,
     TabsPage,
-    Login
+    Login,
+    ProfilePage
   ],
   providers: [
     Geolocation,
